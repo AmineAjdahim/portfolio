@@ -3,7 +3,7 @@
         <div class="allnavs justify-between container flex items-center mx-auto px-4 py-1">
             <div class="logo-title flex  items-center">
                 <div class="logo w-[30px]">
-                    <img class="w-[30px]" src="logo.svg" alt="">
+                    <img class="w-[30px]" src="/logo.svg" alt="">
                 </div>
                 <div class="tit text-[22px] px-2">
                     <h1>Watch Faces</h1>
