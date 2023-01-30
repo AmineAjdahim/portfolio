@@ -26,8 +26,8 @@
                         </svg>
                 </p>
                 <div class="phone absolute flex items-end">
-                    <img class=" absolute" src="Screen.png" alt="">
-                    <img class="rounded-3xl w-[220px] h-[460px] relative bottom-7 " src="image5.png" alt="">
+                    <img class=" absolute" src="/Screen.png" alt="">
+                    <img class="rounded-3xl w-[220px] h-[460px] relative bottom-7 " src="/image5.png" alt="">
 
                     <div class="swatch relative right-10 bottom-7 ">
                         <img src="/Apple.png " class="w-[170px] h-[250px]" alt="">
