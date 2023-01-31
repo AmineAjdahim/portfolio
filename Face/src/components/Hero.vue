@@ -1,8 +1,7 @@
 <template lang="">
-    <div class="allcont flex flex-col ">
-        <div class="content w-full flex-wrap justify-center sm:flex-nowrap flex lg:justify-between h-[750px] px-[30px] items-center py-[80px] container mx-auto ">
+    <div class="allcont flex bg-[#F9F9F9] flex-col justify-center ">
+        <div class="content w-full flex-wrap justify-center sm:flex-nowrap flex lg:justify-between lg:h-[820px] px-[30px] items-center py-[80px] container mx-auto ">
             <div class="leftside w-full lg:pl-20 flex flex-col items-center lg:items-start lg:w-[43%]">
-                
                 <p class="par text-[12px] lg:text-[16px] text-[#5E5C61] uppercase  font-normal">Style your watch in second</p>
                 <p class="par text-[36px] lg:text-[72px] flex flex-col break-words items-start	 text-[#282529] whitespace-nowrap font-bold">Pick & Match,<span class="sub whitespace-nowrap text-[36px] lg:text-[72px] relative break-normal bottom-6 font-semibold		 italic  text-[#5b45d6ce]">Make your style</span></p>
                 <p class="par text-[#5E5C61] text-center lg:text-start text-[14px] lg:text-[18px] w-[344px] lg:w-[507px]">For WatchOS 7: Discover and Share coolest Watch Faces on the planet for your Apple Watch created by a community of Apple Watch lovers.</p>
@@ -54,9 +53,9 @@
             </div>
             
         </div>
-        <div class="divier lg:flex hidden absolute bottom-1 left-0 right-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#fff" fill-opacity="1" d="M0,128L80,138.7C160,149,320,171,480,176C640,181,800,171,960,176C1120,181,1280,203,1360,213.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-        </div>
+    </div>
+    <div class="divier flex  absolute bottom-1 left-0 right-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#fff" fill-opacity="1" d="M0,128L80,138.7C160,149,320,171,480,176C640,181,800,171,960,176C1120,181,1280,203,1360,213.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </div>
     
 </template>
