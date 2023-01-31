@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="list ls hidden lg:flex w-[160px] h-[40px] text-center justify-center text-white rounded-[69px] bg-[#5A45D6] text-[14px]">
-                <button>Try it Now</button>
+                <button>Try it Now ss</button>
             </div>
             <div class="vector lg:hidden flex">
                     <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
