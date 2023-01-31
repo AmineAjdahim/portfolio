@@ -8,11 +8,17 @@
         <div class="content ">
         <Hero />
         </div>
-        <div class="Most py-6 text-[64px]">
+        <div class="Most py-6 text-[64px] bg-[#F5F5F5]">
           <Most_Popular/>
         </div>
-        <div class="client py-6 text-[64px]">
+        <div class="client py-6 text-[64px] bg-[#F5F5F5]">
           <client_review/>
+        </div>
+        <div class="ads py-6 text-[64px] bg-[#F5F5F5]">
+          <ads/>
+        </div>
+        <div class="ads py-6 text-[64px] bg-[#F5F5F5]">
+          <Footer/>
         </div>
       </div>
     </div>
@@ -24,6 +30,8 @@ import Navbar from '../components/Navbar.vue';
 import Hero from '../components/Hero.vue';
 import Most_Popular from '../components/Most_Popular.vue';
 import client_review from '../components/Client_review.vue';
+import Ads from '../components/Ads.vue';
+import Footer from '../components/Footer.vue'
 export default {
   data() {
     return {
@@ -34,7 +42,9 @@ export default {
     Navbar,
     Hero,
     Most_Popular,
-    client_review
+    client_review,
+    Ads,
+    Footer
   },  
   
 }

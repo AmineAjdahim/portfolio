@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="layout w-full flex justify-center flex-col py-8 bg-[#F5F5F5]">
+    <div class="layout w-full hidden lg:flex justify-center  flex-col py-8 bg-[#F5F5F5]">
         <div class="title">
             <h1 class="flex flex-col items-center"> <span class="par text-[64px] font-bold text-[#282529]"> Don’t take our word for it.</span>
                <span class="par  text-[#5A45D6] text-[64px] font-semibold italic">Trust our customers!</span></h1>
