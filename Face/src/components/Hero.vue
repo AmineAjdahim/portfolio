@@ -45,7 +45,7 @@
                     <img class="rounded-3xl w-[220px] h-[460px] relative bottom-7 " src="/image5.png" alt="">
 
                     <div class="swatch relative right-10 bottom-7 ">
-                        <img src="/Apple.png " class="lg:w-[170px] w-[200px] h-[250px]" alt="">
+                        <img src="/Apple.png " class="lg:w-[170px] w-[200px] lg:h-[250px]" alt="">
                     </div>
                     
                 </div>

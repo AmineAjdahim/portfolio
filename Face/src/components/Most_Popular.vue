@@ -1,13 +1,13 @@
 <template lang="">
     <div class="Most_Popular flex justify-center w-full flex-col">
             <div class="title flex flex-col justify-center items-center">
-                <h1 class="par mt-5 font-medium text-[#282529]">Most Popular</h1>
-                <p class="par text-[18px] font-normal">Most recent Watch Faces shared by our Community</p>
+                <h1 class="par mt-5 font-medium text-[32px] lg:text-[64px] text-[#282529]">Most Popular</h1>
+                <p class="par text-[14px] text-center w-[220px] lg:w-full lg:text-[18px]  font-normal">Most recent Watch Faces shared by our Community</p>
             </div>
             <div class="listofwatch flex  flex-wrap justify-center items-center w-full px-14 container  mx-auto">
                 <div class="liof flex justify-start flex-wrap ">
-                    <div v-for="item in listofwetches" :key="item.id"  class="watch my-[60px] mx-auto immg h-[380px] flex items-center flex-col justify-center  " >
-                        <img class="" :src="item.img" alt="dd">
+                    <div v-for="item in listofwetches" :key="item.id"  class="watch my-[20px] lg:my-[60px] mx-auto min-w-[calc(100%*(1/2)-10px-1px)] lg:min-w-[calc(100%*(1/4)-10px-1px)]  flex items-center flex-col justify-center  " >
+                        <img class="lg:w-[231px] w-[100px]" :src="item.img" alt="dd">
                         <p class="par text-center text-[20px]">{{item.title}}</p>
                     </div>
 
@@ -52,6 +52,10 @@ export default {
 }
 .immg {
     min-width: calc(100% * (1/4) - 10px - 1px);
+    /* width: calc(100% * (1/4) - 10px - 1px) */
+}
+.immg1 {
+    min-width: calc(100% * (1/2) - 10px - 1px);
     /* width: calc(100% * (1/4) - 10px - 1px) */
 }
 </style>
