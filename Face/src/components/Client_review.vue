@@ -4,10 +4,10 @@
             <h1 class="flex flex-col items-center"> <span class="par text-[64px] font-bold text-[#282529]"> Don’t take our word for it.</span>
                <span class="par  text-[#5A45D6] text-[64px] font-semibold italic">Trust our customers!</span></h1>
         </div>
-        <div class="allcarts w-full px-20 flex flex-wrap py-8 ">
-            <div class="cart flex flex-wrap">
-                <div v-for="client in clients" class="carrs w-[378px]  my-2 mx-1  ">
-                    <div class="bo bg-white rounded-[15px] flex">
+        <div class="allcarts w-full px-20  flex flex-wrap py-8 ">
+            <div class="cart flex justify-center  flex-wrap">
+                <div v-for="client in clients" class=" carttt my-2 mx-1  ">
+                    <div class="bo  bg-white rounded-[15px] flex">
                         <div class="img px-5 py-5">
                             <img :src="client.img" alt="asas">
                         </div>
@@ -59,6 +59,9 @@ export default {
 .par {
     font-family: 'SF Pro Display', sans-serif;
     /* font-style: normal; */
+}
+.carttt {
+    min-width: calc(100% * (1/3) - 10px - 1px);
 }
 
     
