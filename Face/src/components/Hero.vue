@@ -1,11 +1,11 @@
 <template lang="">
     <div class="allcont flex flex-col ">
-        <div class="content w-full flex-wrap justify-center sm:flex-nowrap flex lg:justify-between  px-[30px] items-center py-[80px] container mx-auto ">
+        <div class="content w-full flex-wrap justify-center sm:flex-nowrap flex lg:justify-between h-[750px] px-[30px] items-center py-[80px] container mx-auto ">
             <div class="leftside w-full lg:pl-20 flex flex-col items-center lg:items-start lg:w-[43%]">
                 
-                <p class="par text-[15px] text-[#5E5C61] uppercase  font-normal">Style your watch in second</p>
-                <p class="par text-[55px] flex flex-col break-words items-start	 text-[#282529] whitespace-nowrap font-bold">Pick & Match,<span class="sub whitespace-nowrap text-[50px] relative break-normal bottom-6 font-semibold		 italic  text-[#5b45d6ce]">Make your style</span></p>
-                <p class="par text-[#5E5C61] text-center lg:text-start text-[15px] w-[80%]">For WatchOS 7: Discover and Share coolest Watch Faces on the planet for your Apple Watch created by a community of Apple Watch lovers.</p>
+                <p class="par text-[12px] lg:text-[16px] text-[#5E5C61] uppercase  font-normal">Style your watch in second</p>
+                <p class="par text-[36px] lg:text-[72px] flex flex-col break-words items-start	 text-[#282529] whitespace-nowrap font-bold">Pick & Match,<span class="sub whitespace-nowrap text-[36px] lg:text-[72px] relative break-normal bottom-6 font-semibold		 italic  text-[#5b45d6ce]">Make your style</span></p>
+                <p class="par text-[#5E5C61] text-center lg:text-start text-[14px] lg:text-[18px] w-[344px] lg:w-[507px]">For WatchOS 7: Discover and Share coolest Watch Faces on the planet for your Apple Watch created by a community of Apple Watch lovers.</p>
                 <button class="par cursor-pointer mt-8 flex justify-center text-white bg-[#5A45D6]  w-[200px] h-[50px] rounded-[100px] items-center text-[16px]">Download Now</button>
             </div>
             <div class="rightside w-full mt-[100px] lg:mt-0 lg:w-[60%] flex  justify-center">
