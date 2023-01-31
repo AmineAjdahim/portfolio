@@ -11,6 +11,9 @@
         <div class="Most py-6 text-[64px]">
           <Most_Popular/>
         </div>
+        <div class="client py-6 text-[64px]">
+          <client_review/>
+        </div>
       </div>
     </div>
   </div>
@@ -20,6 +23,7 @@
 import Navbar from '../components/Navbar.vue';
 import Hero from '../components/Hero.vue';
 import Most_Popular from '../components/Most_Popular.vue';
+import client_review from '../components/Client_review.vue';
 export default {
   data() {
     return {
@@ -29,7 +33,8 @@ export default {
   components:{
     Navbar,
     Hero,
-    Most_Popular
+    Most_Popular,
+    client_review
   },  
   
 }

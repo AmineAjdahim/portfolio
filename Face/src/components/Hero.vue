@@ -1,7 +1,7 @@
 <template lang="">
     <div class="allcont flex flex-col ">
         <div class="content w-full flex-wrap justify-center sm:flex-nowrap flex lg:justify-between  px-[30px] items-center py-[80px] container mx-auto ">
-            <div class="leftside w-full  flex flex-col items-center lg:items-start lg:w-[43%]">
+            <div class="leftside w-full lg:pl-20 flex flex-col items-center lg:items-start lg:w-[43%]">
                 
                 <p class="par text-[15px] text-[#5E5C61] uppercase  font-normal">Style your watch in second</p>
                 <p class="par text-[55px] flex flex-col break-words items-start	 text-[#282529] font-bold">Pick & Match,<span class="sub text-[50px] relative break-normal bottom-6 font-semibold		 italic  text-[#5b45d6ce]">Make your style</span></p>
