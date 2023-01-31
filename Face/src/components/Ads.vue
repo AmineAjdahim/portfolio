@@ -16,7 +16,7 @@
                 </div>
                 <div class="imgs w-full lg:w-[50%]  min-w-[566px]">
                     <div class="img absolute top-10 lg:bottom-0 right-0">
-                            <img class="" src="bgads.png" alt="">
+                            <img class="" src="/bgads.png" alt="">
                         </div>
                         <div class="male absolute top-20 lg:top-32 left-0">
                             <img class="w-[194.55px] lg:w-[250.55px]" src="/ads/MaleMemojis.png" alt="">
