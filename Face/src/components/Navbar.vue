@@ -1,5 +1,20 @@
 <template lang="">
+    <div v-if="openmenu == true" class="menu fixed w-full lg:hidden top-[80px] bottom-0 right-0 bg-white z-[99]  flex justify-center items-center">
+        <div class="list w-full h-full flex items-center justify-between flex-col py-14">
+            <div class="menu flex flex-col items-center">
+                <h1 class="text-[30px] font-bold py-4 ls text-[#5A45D6]">Home</h1>
+                <h1 class="text-[30px] font-normal py-4 ls text-[#706E72]">Blog</h1>
+                <h1 class="text-[30px] font-normal py-4 ls text-[#706E72]">Contact</h1>
+
+            </div>
+            <div class="download bg-[#5A45D6] flex justify-center items-center w-[310px] h-[56px] rounded-[100px]">
+                <h1 class="text-[18px] font-semibold text-white ls">Download Now</h1>
+            </div>
+        </div>
+        <!-- <h1>ksjdhfisdjhfi</h1> -->
+    </div>
     <div class="nav w-full bg-[#F9F9F9] flex items-center min-h-[80px] max-h-[80px] ">
+        
         <div class="allnavs justify-between container flex items-center mx-auto px-4 py-1">
             <div class="logo-title flex  items-center">
                 <div class="logo w-[30px]">
@@ -35,6 +50,7 @@
                 </div>
 
             </div>
+            
         </div>
     </div>
 </template>
