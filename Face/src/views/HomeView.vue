@@ -1,7 +1,7 @@
 <template lang="">
   <div class="homepage w-full h-screen ">
     
-    <div class="h1  w-full  h-screen">
+    <div class="h1 bg-[#F9F9F9] w-full  h-screen">
       
       <div class="nav container mx-auto px-4">
         <Navbar/>
