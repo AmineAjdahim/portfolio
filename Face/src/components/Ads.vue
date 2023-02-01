@@ -4,7 +4,7 @@
             <img class="w-full h-full relative" src="/Rectangle.png" alt="">
             <div class="content py-5 absolute top-0 flex-col lg:flex-row w-full h-full flex">
                 <div class="cont w-full lg:w-[50%]  px-10 flex justify-center items-center flex-col">
-                    <h1 class="flex flex-col items-center lg:items-start "><span class=" text-[#282529] font-bold par text-[32px] lg:text-[56px]">Make Your</span> <span class="text-[32px] lg:text-[56px] text-[#5A45D6] font-semibold italic par">Own Style Watch</span></h1>
+                    <h1 class="flex flex-col items-center lg:items-start "><span class=" text-[#282529] font-bold par text-[32px] whitespace-nowrap lg:text-[56px]">Make Your</span> <span class="text-[32px] lg:text-[56px] whitespace-nowrap text-[#5A45D6] font-semibold italic par">Own Style Watch</span></h1>
                     <p class="par font-normal w-[281px] lg:w-[467px] text-[14px]  lg:text-[18px] text-[#282529]">Watch Faces is the #1 watch face platform for smartwatches, featured by Apple and partner of some of the biggest names in the industry. Join us today!</p>
                     <div class="btns flex w-full">
                         <div class="apple w-full mt-6  flex justify-around items-center ">

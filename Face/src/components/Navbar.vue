@@ -23,9 +23,16 @@
                 <button>Try it Now</button>
             </div>
             <div class="vector lg:hidden flex">
+                <div v-if="openmenu == false" @click="openmenu = !openmenu" class="vec1">
                     <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                          <path d="M1 9H25M1 1H25M9 17H25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
+                </div>
+                <div v-if="openmenu == true" @click="openmenu = !openmenu" class="vec2 ">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 8L24 24M24 8L8 24L24 8Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
 
             </div>
         </div>
@@ -35,7 +42,8 @@
 export default {
     data() {
         return {
-            listofnav:[{title:"Home"},{title:"Blog"},{title:"Contact"}]
+            listofnav:[{title:"Home"},{title:"Blog"},{title:"Contact"}],
+            openmenu:false,
         }
     },
     
